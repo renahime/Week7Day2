@@ -1,8 +1,19 @@
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
 p {
   margin: 0.95em;
-  text-align: left;
-  justify-content: center;
   font-family: sans-serif;
+  text-align: left;
+
 }
 
 h2 {
@@ -10,6 +21,7 @@ h2 {
   font-weight: bolder;
   font-family: sans-serif;
   text-align: left;
+
 }
 
 body {
@@ -17,11 +29,17 @@ body {
 }
 
 .nav__lower {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   word-spacing: 150px;
 }
 
 .upper__right {
+  color:green;
+  float: right;
+  font-family: sans-serif;
+}
+
+.footer__right{
   float: right;
   font-family: sans-serif;
 }
@@ -29,8 +47,40 @@ body {
 .content {
   font-family: sans-serif;
   text-align: center;
+  margin-right: 600px;
+  margin-left: 600px;
+
 }
 
 h1 {
   font-family: sans-serif;
+}
+
+.external_links{
+  text-align: left;
+}
+
+.grid{
+  font-weight: bold;
+  text-align: left;
+  border:25px;
+  font-family: 'Times New Roman', Times, serif;
+  display:grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  font-size: smaller;
+  color: black;
+  margin-right: 600px;
+  margin-left: 600px;
+
+}
+
+
+.upper__left{
+  margin: -150px;;
+}
+
+
+.footer__left{
+  margin: -150px;
 }
