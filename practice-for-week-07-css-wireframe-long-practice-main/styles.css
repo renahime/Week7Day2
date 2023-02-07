@@ -1,9 +1,36 @@
-p{
-  margin:auto;
+p {
+  margin: 0.95em;
+  text-align: left;
   justify-content: center;
+  font-family: sans-serif;
 }
 
-h{
-  margin:auto;
-  justify-content: center;
+h2 {
+  margin: 0.95em;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+body {
+  text-align: center;
+}
+
+.nav__lower {
+  font-family: sans-serif;
+  word-spacing: 150px;
+}
+
+.upper__right {
+  float: right;
+  font-family: sans-serif;
+}
+
+.content {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
 }
