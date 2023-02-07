@@ -31,17 +31,21 @@ body {
 .nav__lower {
   font-family: 'Times New Roman', Times, serif;
   word-spacing: 150px;
+  margin-bottom: 70px;
 }
 
 .upper__right {
   color:green;
   float: right;
+  margin-bottom: 90px ;
+  margin-right: 50px;
   font-family: sans-serif;
 }
 
 .footer__right{
   float: right;
   font-family: sans-serif;
+
 }
 
 .content {
@@ -77,10 +81,28 @@ h1 {
 
 
 .upper__left{
-  margin: -150px;;
+  margin-left: 30px;
+  float: left;
 }
 
 
 .footer__left{
-  margin: -150px;
+  margin-left: 30px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.sign-in{
+  color: green;
+  margin-right: 50px;
+}
+
+.get-started{
+  color: green;
+  border-spacing: 50px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
