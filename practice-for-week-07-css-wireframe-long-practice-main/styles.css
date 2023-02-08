@@ -10,28 +10,32 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 p {
-  margin: 0.95em;
   font-family: sans-serif;
   text-align: left;
 
 }
 
+h1 {
+  text-align: left;
+}
+
 h2 {
-  margin: 0.95em;
   font-weight: bolder;
   font-family: sans-serif;
-  text-align: left;
-
 }
 
 body {
   text-align: center;
+  margin: auto;
+  padding-right: 25px;
 }
 
 .nav__lower {
   font-family: 'Times New Roman', Times, serif;
   word-spacing: 150px;
-  margin-bottom: 70px;
+  padding-top: 50px;
+  padding-left: 350px;
+  text-align: center;
 }
 
 .upper__right {
@@ -39,20 +43,22 @@ body {
   float: right;
   margin-bottom: 90px ;
   margin-right: 50px;
+  padding-top: 10px;
   font-family: sans-serif;
 }
 
 .footer__right{
   float: right;
-  font-family: sans-serif;
-
+  font-family: 'Times New Roman', Times, serif;
+  padding-right: 50px;
 }
 
 .content {
   font-family: sans-serif;
-  text-align: center;
-  margin-right: 600px;
-  margin-left: 600px;
+  text-align: left;
+  margin: auto;
+  padding: 50px;
+  width:650px
 
 }
 
@@ -74,8 +80,8 @@ h1 {
   padding: 30px;
   font-size: smaller;
   color: black;
-  margin-right: 600px;
-  margin-left: 600px;
+  margin-right: 625px;
+  margin-left: 625px;
 
 }
 
@@ -83,6 +89,11 @@ h1 {
 .upper__left{
   margin-left: 30px;
   float: left;
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+  padding-left: 200px;
+
 }
 
 
@@ -90,6 +101,9 @@ h1 {
   margin-left: 30px;
   float: left;
   margin-bottom: 50px;
+  height: 30px;
+  width: 30px;
+  padding-left: 200px;
 }
 
 .sign-in{
@@ -101,8 +115,11 @@ h1 {
   color: green;
   border-spacing: 50px;
   border-style: solid;
+  border-width: .14em;
   border-color: green;
   border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
